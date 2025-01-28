@@ -13,6 +13,7 @@ body{
     justify-content: center; /* centralizar no eixo X */
     align-items: center; /* centralizar no exo Y */
     background-color: var(--cor-fundo);
+    transition: background-color 1s;
 }
 
 #cor{
