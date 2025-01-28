@@ -1,0 +1,28 @@
+:root{
+    --cor-fundo: blue ;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* centralizar no eixo X */
+    align-items: center; /* centralizar no exo Y */
+    background-color: var(--cor-fundo);
+}
+
+#cor{
+    padding: 8px 16px; 
+    font-size: 24px;
+    outline: none; /* tirar a borda preta de transição, quando o cursor passa em cima */
+}
+
+#trocar-cor{
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer; /* muda de cor quando o mouse passa pela botão */
+}
